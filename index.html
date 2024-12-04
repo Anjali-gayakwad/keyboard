@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #container{
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            gap: 10px;
+        }
+        .btn{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border:none;
+        }
+        .enter{
+            grid-column-start: 11;
+            grid-column-end: 13;
+        }
+        .shift{
+            grid-column-start: 11;
+            grid-column-end: 13;
+        }
+        .space{
+            grid-column-start: 5;
+            grid-column-end: 9;
+        }
+        #circle{
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background-color: red;
+            margin-left: 30px;
+        }
+        
+    </style>
+    <div id="container">
+        <button class="btn">-</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn">0</button>
+        <button class="btn">DELETE</button>
+        <button class="btn">TAB</button>
+        <button class="btn">Q</button>
+        <button class="btn">W</button>
+        <button class="btn">E</button>
+        <button class="btn">R</button>
+        <button class="btn">T</button>
+        <button class="btn">Y</button>
+        <button class="btn">U</button>
+        <button class="btn">I</button>
+        <button class="btn">O</button>
+        <button class="btn">P</button>
+        <button class="btn">\</button>
+        <button class="btn">caps</button>
+        <button class="btn">A</button>
+        <button class="btn">S</button>
+        <button class="btn">D</button>
+        <button class="btn">F</button>
+        <button class="btn">G</button>
+        <button class="btn">H</button>
+        <button class="btn">J</button>
+        <button class="btn">K</button>
+        <button class="btn">L</button>
+        <button class="btn enter">ENETR</button>
+        <button class="btn">SHIFT</button>
+        <button class="btn">Z</button>
+        <button class="btn">X</button>
+        <button class="btn">C</button>
+        <button class="btn">V</button>
+        <button class="btn">B</button>
+        <button class="btn">N</button>
+        <button class="btn">M</button>
+        <button class="btn"><</button>
+        <button class="btn">></button>
+        <button class="btn shift">SHIFT</button>
+        <button class="btn"><div id="circle"></div></button>
+        <button class="btn">CONTROL</button>
+        <button class="btn">OPTION</button>
+        <button class="btn">ALT</button>
+        <button class="btn space">SPACE</button>
+        <button class="btn">ALT</button>
+        <button class="btn">OPTION</button>
+        <button class="btn"><</button>
+        <button class="btn">></button>
+    </div>
+</body>
+</html>
